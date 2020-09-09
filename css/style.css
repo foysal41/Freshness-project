@@ -1,0 +1,302 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6em;
+}
+p{
+    font-weight: 400;
+    margin-bottom: 15px
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    margin-bottom: 15px
+}
+
+/*
+===============
+Common Css    |
+===============
+
+*/
+
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.read-more{
+    background: #3bafbe none repeat scroll 0 0;
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.read-more:hover{
+    background: #262626 none repeat scroll 0 0;
+
+}
+
+/*
+===============
+Header Section |
+===============
+
+*/
+
+.header_area{
+    border-top: 5px solid #3BAFBE;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 25px 0;
+   
+}
+
+.social_area{
+    width: 100%;
+    clear: both;
+    margin-bottom: 35px;
+   
+}
+.social_area ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.social_area ul li{margin-right: 10px;display: inline-block;}
+.social_area ul li:last-child{margin-right:0}
+
+.social_area ul li a{
+    background: #1F1F1F;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    display: block;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 50%;
+    transition: .5s;
+}
+.social_area ul li a:hover{
+    background:#EE802F;
+    transform: rotate(360deg);
+}
+
+
+.search_area{
+    text-align:right;
+    clear: both;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.search_area input{
+    background: #333333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 15px;
+   
+}
+.search_area input[type="button"]{
+    background: #3BAFBE;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: .5s;
+    border: none;
+}
+.search_area input[type="button"]:hover{
+    background: #EE802F;
+    
+}
+
+
+.main_menu{
+    /*margin-top: 50px;*/
+     text-align: right;
+    
+}
+.main_menu ul{
+ margin: 0;
+ padding: 0;
+}
+.main_menu ul li{
+   display: inline-block;
+}
+.main_menu ul li a{
+    display: block;
+    color: #999999;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+ }
+ .main_menu ul li a:hover{
+    
+    color: #3BAFBE;
+ }
+
+
+
+
+
+
+
+
+/*
+===============
+Banner        |
+===============
+
+*/
+
+#banner_area{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 30px;
+}
+#banner_area .item{
+    width: 100%;
+    overflow: hidden;
+}
+#banner_area .item img{
+   
+    height: auto;
+}
+.banner_text{
+    height: 100%;
+    left: 400px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.banner_table{
+    display: table;
+    height: 100%;
+    width: 100%;
+
+}
+
+.banner_align{
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+.banner_text_area{
+    margin: 0 auto;
+    width: 1170px;
+}
+.main_banner{
+    float: left;
+    width: 50%;
+}
+
+
+/* Intro */
+
+#intro{
+    padding: 40px 0;
+
+}
+#intro img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+/* service ara */
+
+#service_area{
+    border-top: 1px solid #E2E2E2;
+    padding: 50px 0;
+
+}
+#service_area .col-md-10 h4{
+    text-align: center;
+    color: #666;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+#service_area .col-md-4 img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#service_area .col-md-4 h4{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#service_area .col-md-4 p{
+    font-size: 12px;
+    margin-bottom:0;
+    line-height: 1.4em;
+}
+
+/* footer area */
+#footer{
+    padding: 40px 0;
+    background: #252525;
+    color: #fff;
+}
+#footer h3{
+    font-size: 30px;
+}
+
+#footer ul {
+   margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#footer ul li{
+    display: block;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #2C2C2C;
+}
+#footer ul li a{
+    color: #3BAFBE;
+    padding: 5px;
+    display: block;
+
+}
+/*must use display block */
+
+
+
+#footer form{
+    text-align: right;
+    clear: both;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+#footer input{
+    padding: 8px;
+    background: #333;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+    outline:none;
+    float:left;
+}
+#footer input[type="button"]{
+    background: #3BAFBE;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    float: left;
+    
+    
+}
